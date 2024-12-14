@@ -36,7 +36,6 @@ app.layout = html.Div(
         ),
       
         
-      
         html.Div(
             children=[
                 html.Div(
@@ -66,7 +65,7 @@ app.layout = html.Div(
             children=[
                 html.Div(
                     children=[
-                       # html.Label("Select Variables Train:"),
+                       
                              dcc.Checklist(id="train-variable"),
                             ],
                  ),
@@ -77,10 +76,7 @@ app.layout = html.Div(
 
         
         html.Div(id='model-eval', children=""),
-        #html.Div(id='selected-target-variable', children="Selected Target: None"),
-
-       
-     #   html.Div(id='predictions', children=""),
+    
         
         
                 html.Div(
