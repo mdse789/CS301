@@ -3,7 +3,6 @@ import base64
 import io
 import pandas as pd
 import numpy as np
-#from dash.dash_table import DataTable
 import plotly.express as px
 from sklearn.model_selection import train_test_split
 from sklearn import linear_model, tree, neighbors
@@ -12,7 +11,6 @@ import plotly.graph_objects as go
 import plotly.express as px
 from sklearn.ensemble import BaggingRegressor
 from sklearn.metrics import r2_score
-#from sklearn.tree import DecisionTreeRegressor
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder
