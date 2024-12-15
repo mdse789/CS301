@@ -310,7 +310,7 @@ def predictions (n_clicks, input_pred, data, train_variables, targvar, model_eva
 
 
 if __name__ == "__main__":
-    app.run(debug=False, port=5000)
+    app.run(debug=True)
 
 
 
